@@ -7,8 +7,6 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="css/styles.css">
 
-    <script src="https://unpkg.com/@magicleap/prismatic@0.18.2/prismatic.min.js"></script>
-
     <!-- The following libraries and polyfills are recommended to maximize browser support -->
     <!-- NOTE: you must adjust the paths as appropriate for your project -->
 
@@ -31,16 +29,18 @@
 <body>
     <div class="grid-container">
         <model-viewer class="a"
-        src="models/TiaGallina.glb"
+        src="models/Astronaut.glb"
         ar
-        alt="A 3D model of an astronaut"
-        background-color="#70BCD1"
+        alt="Un modelos 3D de un Astronauta"
+        background-color="#A0BCD1"
         shadow-intensity="1"
         stage-light-intensity="3" environment-intensity="2"
         camera-orbit="-20deg 75deg 2m"
         camera-controls
         auto-rotate></model-viewer>
     </div>
+    
+    <script src="https://unpkg.com/@magicleap/prismatic@0.18.2/prismatic.min.js"></script>
 
     <script type="module" src="https://unpkg.com/@google/model-viewer@v0.3.1/dist/model-viewer.js">
     </script>

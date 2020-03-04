@@ -21,27 +21,11 @@ model-viewer {
   grid-column: 1 / 5;
   grid-row: 1 / 7;
 }
-.b {
-  grid-column: 5 / 9;
-  grid-row: 1 / 7;
-}
-.c {
-  grid-column: 9 / 13;
-  grid-row: 1 / 7;
-}
 
 @media (max-width: 880px) {
   .a {
     grid-column: 1 / 8;
     grid-row: 1 / 7;
-  }
-  .b {
-    grid-column: 8 / 13;
-    grid-row: 1 / 4;
-  }
-  .c {
-    grid-column: 8 / 13;
-    grid-row: 4 / 7;
   }
 }
 
@@ -50,13 +34,5 @@ model-viewer {
   .a {
     grid-column: 1 / 13;
     grid-row: 1 / 5;
-  }
-  .b {
-    grid-column: 1 / 7;
-    grid-row: 5 / 7;
-  }
-  .c {
-    grid-column: 7 / 13;
-    grid-row: 5 / 7;
   }
 }
